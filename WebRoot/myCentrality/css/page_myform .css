@@ -1,0 +1,135 @@
+	body{
+		background-color: white;
+	}
+	.myformNav{
+		list-style: none;
+		overflow: hidden;
+	}
+	.myformNav li{
+		float: left;
+		margin: 10px;
+		font-size: 13px;
+	}
+	.myformNav li a{
+		border: 1px solid white;
+		padding: 5px;
+		color: black;
+		text-decoration: none;
+	}
+	.myformNav li a:hover{
+		color: #ff5757;
+		border: 1px solid #ff5757;
+	}
+	.myformNav li:first-of-type{
+		color: gray;
+	}
+	/* 主体内容部分 */
+	.main{
+		float: left;
+		margin-top: 25px;
+		background-color: white;
+		height:auto!important;
+		height:200px;
+		min-height:200px;
+		overflow: auto;
+	}
+	.dingdan{
+		list-style: none;
+		overflow: hidden;
+		padding: 10px;
+		border: 1px solid gray;
+		width: 800px;
+	}
+	.dingdan li{
+		float: left;
+		padding: 10px;
+		font-size: 14px;
+	}
+	.dingdan li a{
+		color: black;
+		padding-bottom: 10px;
+		text-decoration: none;
+	}
+	.dingdan li a:hover
+	{
+		color: red;
+		border-bottom: 2px solid red;
+	}
+	.dingdan li:last-of-type{
+		float: right;
+		font-size: 13px;
+		position: relative;
+	}
+	.dingdan select{
+		outline:none;
+		border: 1px solid gray;
+		padding: 3px;
+		font-size: 13px;
+	}
+	.dingdan2{
+		list-style: none;
+		overflow: hidden;
+		background-color: #f6f6f6;
+		padding-left: 100px;
+		width: 722px;
+	}
+	.dingdan2 li{
+		float: left;
+		padding: 10px;
+		margin: 10px;
+		font-size: 13px;
+	}
+	select{
+		outline: none;
+	}
+	.dingdan2 li:first-of-type{
+		margin-right: 240px;
+	}
+	#noComm{
+		height: 500px;
+	
+	}
+	#noComm>a{
+		display: block;
+		width: 80px;
+		color: white;
+		font-size: 16px;
+		font-weight: 500;
+		background-color:#ff5757 ;
+		padding: 10px;
+		margin: 0px auto;
+		margin-top: 50px;
+	}
+	#noComm h3{
+		font-size: 30px;
+		font-weight: 300;
+		width: 300px;
+		margin: 0px auto;
+	}
+	#noComm li:first-of-type{
+		font-size: 30px;
+			font-weight: 300;
+			width: 300px;
+			margin: 0px auto;
+			margin-top: 200px;
+			}
+	#noComm li:last-of-type{
+		width: 400px;
+		margin: 0px auto;
+	}
+	#noComm ul li{
+		list-style: none;
+	}
+	#fangdj{
+		position: absolute;
+		top: 13px;
+		left: 146px;
+	}	
+	.formSapn{
+		display: inline-block;
+		color: red;
+		margin-left: 10px;
+		font-weight: 600;
+		font-size: 13px;
+	}
+	

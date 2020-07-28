@@ -1,0 +1,58 @@
+#title_img{
+				position: relative;
+				left: 180px;
+			}
+			
+			#sp1{
+				margin-left: 750px;
+				font-weight: 400;
+			}
+			#h1{
+				position: relative;
+				left: 180px;
+				line-height: 50px;	
+				font-weight: 700;
+			}
+			#h2{
+				position: relative;
+				left: 1270px;
+				font-size: 13px;
+				color: dodgerblue;
+			}
+			#h2:hover{
+				cursor: pointer;
+				color: red;
+			}
+			#h3{
+				position: relative;
+				left: 180px;
+			}
+			#header_img{
+				text-align: center;
+			}
+			#h3{
+				display: none;
+			}
+			#ddv{
+				background-color: #F3F3F3;
+				margin:0px auto ;
+				overflow: hidden;
+				
+			}
+			#sp2{
+				font-size: 25px;
+				background-color: red;
+				color: white;	
+				padding: 17px;
+				
+				position: relative;
+				left: 180px;
+			}
+			#fooder{
+				margin: 20px 0px 30px 0px;
+				padding: 10px;
+			}
+			#ddd{
+				text-align: center;
+				font-size: 10px;
+			}

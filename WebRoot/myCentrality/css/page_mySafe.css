@@ -1,0 +1,48 @@
+.main{
+		width: 1000px;
+		float: left;
+		margin-top: 25px;
+		background-color: white;
+	}
+	body{
+		background-color: white;
+	}
+	.safeNav{
+		list-style: none;
+		overflow: hidden;
+		border-bottom: 1px solid gray;
+		padding-bottom: 30px;
+		padding-top: 30px;
+	}
+	.safeNav li{
+		float: left;
+		padding: 10px;
+		width: 100px;
+	}
+	.safeNav li:last-of-type{
+		float: right;
+	}
+	.safeNav li:first-of-type{
+		margin-right: 30px;
+	}
+	.safeNav li:nth-of-type(2){
+		margin-right: 150px;
+	}
+	.safeNav li:nth-of-type(3){
+		color: gray;
+		font-size: 13px;
+		width: 300px;
+	}
+	.safeNav li:nth-of-type(3) span{
+		display: inline-block;
+		width: 300px;
+	}
+	.safeNav li:last-of-type a{
+		text-decoration: none;
+		font-size: 13px;
+		color: blue;
+	}
+	.safeNav li:first-of-type img{
+		vertical-align: middle;
+		width: 25px;
+	}

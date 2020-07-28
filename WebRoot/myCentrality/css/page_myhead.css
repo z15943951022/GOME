@@ -1,0 +1,288 @@
+			body{
+				margin: 0px;
+			}
+			.jiao{
+				border-left: 5px solid transparent;
+				border-top: 5px solid crimson;
+				border-right: 5px solid transparent;
+				border-bottom: 5px solid transparent;
+				display: inline-block;
+				margin-left: 10px;
+				margin-bottom: 0px;
+			}
+			.right_jiao{
+				border-left: 5px solid aliceblue ;
+				border-top: 5px solid transparent ;
+				border-right: 5px solid transparent;
+				border-bottom: 5px solid transparent;
+				display: inline-block;
+			}
+			.jiao_bottom{
+				border-left: 8px solid transparent;
+				border-top: 8px solid transparent;
+				border-right: 8px solid transparent;
+				border-bottom: 8px solid white;
+				display: inline-block;
+				margin-left: 10px;
+				margin-bottom: 0px;
+				position: absolute;
+				left: 219px;
+				bottom: 0px;
+			}
+			#header{
+				height: 70px;
+				width: 1200px;
+				margin: 0px auto;
+				border: solid #FF5757;
+				
+			}
+			#header2{
+				background-color: #FF5757;
+				height: 80px;
+				margin: 0px;
+				
+			}
+			#header:after{
+				content: "";
+				display: block;
+				clear: both;
+			}
+			#header>ul{
+				overflow: hidden;
+				height: 80px;
+				padding-left: 5px;
+				margin: 0px auto;
+				background-color: rgba(255,87,87,0.5);
+				border-radius: 0 0 10px 10px;
+				z-index: 5;
+			}
+			#header>ul>li{
+				float: left;
+				list-style: none;
+				height: 21px;
+				margin: 20px;
+				margin-top:30px ;
+			}
+			#header>ul>li>a{
+				color: white;
+				text-decoration: none;
+			}
+			[type=search]{
+				border-radius: 5px;
+				margin-right: 0px;
+				height: 30px;
+				width: 190px;
+				border: none;
+			}
+			
+			#header>ul>li:nth-of-type(6){
+				background-color: white;
+				height: 30px;
+				border-radius: 5px;
+				margin-left: 110px;
+			}
+			#aa{
+				top: 0px;
+				right:0px ;
+				position: absolute;
+				height: 30px;
+				width: 30px;
+				background-color: #F6F6F6;
+				border-radius: 5px;
+				
+			}
+			#fom{
+				position: relative;
+				
+			}
+			#header>ul>li:nth-of-type(7){
+				color: black;
+				background-color:white ;
+				border-radius: 5px;
+				height:30px;
+				width: 100px;
+				
+			}
+			#header>ul>li:nth-of-type(7) a{
+				color: black;
+				line-height: 30px;
+				padding-left: 10px;
+				font-size: 13px;
+				color: grey;
+			}
+			#header>ul>li:nth-of-type(1){
+				font-size: 29px;
+				font-weight: 500;
+				margin-right: 55px;
+				height: 30px;
+				margin-top: 23px;
+			}
+			#header>ul>li:nth-of-type(1) a{
+				margin-top: 0px;
+			}
+			
+			#user_set{
+				position: absolute;
+				list-style: none;
+				margin-left: -1px;
+				background-color: white;
+				border-bottom: 1px solid gray;
+				border-right: 1px solid gray;
+				border-left: 1px solid gray;
+				font-size: 13px;
+				display: none;
+				z-index: 1;
+				padding: 0px;
+				width: 118px;
+			}
+			#user_set li{
+				padding-bottom: 10px;
+				padding-top:10px;
+			}
+			
+			#user_set li:first-of-type{
+				padding-top:20px;
+			}
+			
+			#user_set li a{
+				text-decoration: none;
+			}
+			#user_set li:hover{
+				background-color: antiquewhite;
+			}
+			
+			#header>ul>li:nth-of-type(3){
+				margin-top: 20px;
+				padding-top: 10px;
+				width: 118px;
+				margin-bottom: 0px;
+				border-bottom: 1px solid rgba(255,87,87,0.0);
+				border-right: 1px solid rgba(255,87,87,0.0);
+				border-left: 1px solid rgba(255,87,87,0.0);
+			}
+			#header>ul>li:nth-of-type(3) a{
+				padding-bottom: 10px;
+				padding-left: 10px;
+			}
+			#header>ul>li:nth-of-type(3):hover{
+				background-color: white;
+				color: black;
+				border-right: 1px solid gray;
+				border-left: 1px solid gray;
+				border-top: 1px solid gray;
+			}
+			#header>ul>li:nth-of-type(3):hover a{
+				color: black;
+			}
+			#header>ul>li:nth-of-type(3):hover #user_set{
+				display: block;
+			}
+			
+			#VIP{
+				position: fixed;
+				list-style: none;
+				margin-left: -1px;
+				background-color: white;
+				border-bottom: 1px solid #ff5757;
+				border-right: 1px solid #ff5757;
+				border-left: 1px solid #ff5757;
+				display: none;
+				font-size: 13px;
+				z-index: 1;
+				padding: 0px;
+				width: 120px;
+			}
+			#VIP li{
+				padding-bottom: 13px;
+				padding-top:10px;
+				
+			}
+			#VIP li:first-of-type{
+				padding-top:20px;
+			}
+			#VIP li a{
+				text-decoration: none;
+			}
+			
+			#VIP li:hover{
+				background-color: antiquewhite;
+			}
+			
+			#header>ul>li:nth-of-type(4){
+				margin-top: 20px;
+				padding-top: 10px;
+				width: 120px;
+				border-bottom: 1px solid rgba(255,87,87,0.0);
+				border-right: 1px solid rgba(255,87,87,0.0);
+				border-left: 1px solid rgba(255,87,87,0.0);
+			}
+			#header>ul>li:nth-of-type(4) a{
+				padding-left: 10px;
+			}
+			#header>ul>li:nth-of-type(4):hover #VIP{
+				display: block;
+			}
+			#header>ul>li:nth-of-type(4):hover{
+				background-color: white;
+				border-right: 1px solid gray;
+				border-left: 1px solid gray;
+				border-top: 1px solid gray;
+			}
+			#header>ul>li:nth-of-type(4):hover a{
+				color: black;
+			}
+		
+			#com{
+			position: absolute;
+			list-style: none;
+			margin-left: -1px;
+			background-color: white;
+			border-bottom: 1px solid gray;
+			border-right: 1px solid gray;
+			border-left: 1px solid gray;
+			font-size: 13px;
+			display: none;
+			z-index: 1;
+			padding: 0px;
+			width: 90px;
+			}
+			#com li{
+				padding-bottom: 10px;
+				padding-top:10px;
+			}
+			#com li:first-of-type{
+				padding-top:20px;
+			}
+			
+			#com li a{
+				text-decoration: none;
+			}
+			
+			#header>ul>li:nth-of-type(5){
+				margin-top: 20px;
+				padding-top: 10px;
+				width: 90px;
+				border-bottom: 1px solid rgba(255,87,87,0.0);
+				border-right: 1px solid rgba(255,87,87,0.0);
+				border-left: 1px solid rgba(255,87,87,0.0);
+			}
+			#header>ul>li:nth-of-type(5) a{
+				padding-left: 10px;
+				color: white;
+			}
+			#header>ul>li:nth-of-type(5):hover a{
+				color: black;
+			}
+			#header>ul>li:nth-of-type(5):hover {
+				background-color: white;
+				border-right: 1px solid gray;
+				border-left: 1px solid gray;
+				border-top: 1px solid gray;
+			}
+			#header>ul>li:nth-of-type(5):hover #com{
+				display: block;
+			}
+			
+			#com li:hover{
+				background-color: antiquewhite;
+			}

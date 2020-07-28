@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd" id="WebApp_ID" version="3.0">
+  <display-name>GOME</display-name>
+  <welcome-file-list>
+    <welcome-file>index.jsp</welcome-file>
+  </welcome-file-list>
+  
+  <filter>
+  	<filter-name>CodeFilter</filter-name>
+  	<filter-class>filter.CodeFilter</filter-class>
+  </filter>
+    <filter>
+    <filter-name>MyCentralityFilter</filter-name>
+    <filter-class>filter.MyCentralityFilter</filter-class>
+  </filter>
+  
+  <filter-mapping>
+  	<filter-name>CodeFilter</filter-name>
+  	<url-pattern>/*</url-pattern>
+  </filter-mapping>
+    <filter-mapping>
+    <filter-name>MyCentralityFilter</filter-name>
+    <url-pattern>/myCentrality/*</url-pattern>
+  </filter-mapping>
+  
+  
+  
+  <servlet>
+    <servlet-name>UserAddressServlet</servlet-name>
+    <servlet-class>web.UserAddressServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>ProductDetailServlet</servlet-name>
+    <servlet-class>web.ProductDetailServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>UserServlet</servlet-name>
+    <servlet-class>web.UserServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>UserOut</servlet-name>
+    <servlet-class>web.UserOut</servlet-class>
+  </servlet>
+    <servlet>
+    <servlet-name>RegisterServlet</servlet-name>
+    <servlet-class>web.RegisterServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>OrderServlet</servlet-name>
+    <servlet-class>web.OrderServlet</servlet-class>
+  </servlet>
+     <servlet>
+    <servlet-name>productTypeServlet</servlet-name>
+    <servlet-class>web.productTypeServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>BuyCarServlet</servlet-name>
+    <servlet-class>web.BuyCarServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>AddOrderServlet</servlet-name>
+    <servlet-class>web.AddOrderServlet</servlet-class>
+  </servlet>
+
+
+  
+
+
+  <servlet-mapping>
+    <servlet-name>ProductDetailServlet</servlet-name>
+    <url-pattern>/ProductDetailServlet</url-pattern>
+  </servlet-mapping>
+   <servlet-mapping>
+    <servlet-name>UserAddressServlet</servlet-name>
+    <url-pattern>/UserAddressServlet</url-pattern>
+  </servlet-mapping>
+    <servlet-mapping>
+    <servlet-name>UserServlet</servlet-name>
+    <url-pattern>/UserServlet</url-pattern>
+  </servlet-mapping>
+    <servlet-mapping>
+    <servlet-name>UserOut</servlet-name>
+    <url-pattern>/UserOut</url-pattern>
+  </servlet-mapping>
+    <servlet-mapping>
+    <servlet-name>RegisterServlet</servlet-name>
+    <url-pattern>/RegisterServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>OrderServlet</servlet-name>
+    <url-pattern>/OrderServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>productTypeServlet</servlet-name>
+    <url-pattern>/productTypeServlet</url-pattern>
+  </servlet-mapping>
+        <servlet-mapping>
+    <servlet-name>BuyCarServlet</servlet-name>
+    <url-pattern>/BuyCarServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AddOrderServlet</servlet-name>
+    <url-pattern>/AddOrderServlet</url-pattern>
+  </servlet-mapping>
+ 
+  
+  
+  
+  
+  <context-param>
+  	<param-name>charCode</param-name>
+  	<param-value>UTF-8</param-value>
+  </context-param>
+</web-app>

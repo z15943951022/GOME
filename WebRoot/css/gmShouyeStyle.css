@@ -1,0 +1,411 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+nav{
+	width: 1230px;
+	position: relative;
+}
+nav:after{
+	content: '';
+	display: block;
+	clear: both;
+}
+#searchNav{
+	width: 1200px;
+	height: 120px;
+	margin: 0px auto;
+	margin-left: 30px;
+	position: relative;
+	
+}
+#searchNav table{
+	width: 1200px;
+}
+
+#searchNav td:first-child{
+	padding: 35px 0px;
+	width: 370px;
+}
+#searchNav td:first-child>div>img{
+	padding-right: 20px;
+}
+#searchNav td:nth-of-type(2){
+	width: 505px;
+}
+#select{
+	height: 30px;
+	width: 60px;
+	border: 1px solid #DD00A7;
+	float: left;
+	cursor: pointer;
+	border-right: none;
+}
+#select>select{
+	height: 30px;
+	border: none;
+	width: 60px;
+	outline: none;
+	font-size: 16px;
+	text-indent: 5px;
+	cursor: pointer;
+}
+#select>select>option{
+	border:1px solid #DD00A7;
+}
+#select~*{
+	box-sizing: content-box;
+	height: 30px;
+	float: left;
+	border: 1px solid #DD00A7;
+	outline: none;
+}
+#select~*:visited{
+	border: 1px solid #DD00A7;
+	
+}
+#select~input:first-of-type{
+	width: 350px;
+	padding-left: 10px;
+}
+#select~input:last-of-type{
+	cursor: pointer;
+	width: 80px;
+	background-color:#DD00A7 ;
+	color: white;
+	font-size: 16px;
+}
+#searchNav form~p{
+	font-size: small;
+	line-height: 30px;
+}
+#searchNav form~p a{
+	color: gray;
+	text-decoration: none;
+}
+#searchNav td:last-of-type{
+	padding-left: 180px;
+}
+#searchNav td:last-of-type>a{
+	text-decoration: none;
+	color: gray;
+}
+#searchNav td:last-of-type>a>div{
+	position: relative;
+	z-index: 2;
+	padding-top: 18px;
+	padding-bottom: 18px;
+	font-size: small;
+	padding-left: 10px;
+}
+#searchNav td:last-of-type>a>div img{
+	vertical-align: middle;
+}
+#searchNav td:last-of-type>a>div span{
+	margin-left: 15px;
+}
+#yincangBuy{
+	position: absolute;
+	right: 0px;
+	top: 80px;
+	border: 1px solid gainsboro;
+	width: 260px;
+	height: 85px;
+	background-color: white;
+	display: none;
+	line-height: 85px;
+	text-indent: 2em;
+	font-size: small;
+}
+#yincangBuy>span{
+
+	color: gray;
+}
+#leftpNav{
+	width: 200px;
+	float: left;
+	margin-left: 30px;
+	/*background-color: rgba(0,0,0,0.5);*/
+	height: 490px;
+	font-size: 14px;
+	position: relative;
+}
+#leftpNav>h4{
+	line-height: 40px;
+	padding-left: 10px;
+	color: #686868;
+	background-color: #F1F1F1;
+}
+#leftpNav>ul{
+	list-style: none;
+	background-color: rgba(0,0,0,0.5);
+}
+#leftpNav li{
+	padding-left: 10px;
+	padding-top: 6px;
+	padding-bottom: 5px;
+}
+#leftpNav li a{
+	text-decoration: none;
+	color: white;
+}
+#topNav{
+	height: 40px;
+
+	background-color: #F8F8F8;
+	border-bottom: 1px solid #DD00A7;
+}
+
+#topNav ul{
+	list-style: none;
+}
+#topNav li{
+	float: left;
+	
+}
+#topNav li span{
+	display: inline-block;
+	width: 1PX;
+	height: 12px;
+	background-color: #B2B2B2;
+}
+#topNav li>a{
+	text-decoration: none;
+	line-height: 40px;
+	color: black;
+	padding: 0px 15px;
+}
+#midNav{
+	background-color: #11A2F1;
+}
+#midNav>div{
+	width: 750px;
+	height: 450px;
+	margin-left: 230px;
+	background-image: url(../img/top01.jpg);
+}
+#midNav li{
+	list-style: none;
+	float: left;
+	width: 30px;
+	height: 5px;
+	background-color: rgba(0,0,0,0.3);
+	margin-right: 10px;
+}
+#midNav li:first-of-type{
+	background-color: red;
+}
+#midNav ul{
+	position: absolute;
+	left: 450px;
+	bottom: 20px;
+}
+#rightNav{
+	width:250px ;
+	height: 430px;
+	float: right;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	background-color: rgba(255,255,255,0.9);
+}
+#rightNav a{
+	text-decoration: none;
+	font-size: 10px;
+}
+#rightNav>div:first-child{
+	padding: 10px ;
+	font-size: 14px;
+	border-bottom: 1px dashed #888888;
+}
+#rightNav>div:first-child>a{
+	float: right;
+	color: #888888;
+}
+#rightNav>div:first-child li{
+	list-style: none;
+	padding: 4px 0px;
+}
+#rightNav>div:first-child li>a{
+	color: #5E5E5E;
+}
+#rightNav>div:first-child li>a:first-child{
+	color: #888888;
+}
+#rightNav>div:last-child{
+	height: 130px;
+}
+section{
+	width: 1200px;
+	padding-top: 20px;
+	margin-left: 30px;
+	
+}
+section:after{
+	content: '';
+	display: block;
+	clear: both;
+}
+#meiri>div:first-of-type{
+	width: 950px;
+
+	border-top: 1px solid red;
+	border-bottom: 1px solid gainsboro;
+	border-left: 1px solid gainsboro;
+	border-right: 1px solid gainsboro;
+	float: left;
+	height: 252px;
+}
+#meiri>div:last-of-type{
+	padding-top: 1px;
+}
+
+#meiri h3{
+	padding-left: 10px;
+	color: #F74F4B;
+	vertical-align: middle;
+	font-weight: 400;
+	border-bottom: 1px solid gainsboro;
+}
+#meiri a{
+	text-decoration: none;
+}
+#meiri h3 img{
+	vertical-align: middle;
+	
+}
+#meiri h3 span{
+	font-size: 10px;
+}
+#meiri h3~div{
+	float: left;
+	width: 236.5px;
+	margin: 10px 0px;
+	border-right: 1px dashed gainsboro;
+	text-align: center;
+	font-size: 10px;
+}
+#meiri h3~div:last-of-type{
+	border-right:none ;
+}
+#meiri h3~div p:first-of-type{
+	color: red;
+	font-size: 20px;
+}
+#meiri h3~div p:first-of-type span{
+	color: darkgray;
+	font-size: 10px;
+	text-decoration: line-through;
+}
+#meiri h3~div p:last-of-type{
+	color: gray;
+	
+}
+article{
+	width: 1200px;
+	padding-top: 20px;
+	margin-left: 30px;
+	position: relative;
+}
+article:after{
+	content: '';
+	display: block;
+	clear: both;
+}
+article>div:first-of-type{
+	float: left;
+}
+article>div:first-of-type div{
+	border: 1px solid gainsboro;
+}
+article>div:nth-of-type(2){
+	float: left;
+	margin-left: 10px;
+}
+article>div:nth-of-type(2) div{
+	border: 1px solid gainsboro;
+}
+.sanfentu td:nth-of-type(2){
+	border-bottom: 1px dashed gainsboro;
+}
+#ninePic{
+	float: left;
+	margin-left: 10px;
+}
+#ninePic:after{
+	content: '';
+	display: none;
+	clear: both;
+}
+#ninePic>div{
+	border: 1px solid gainsboro;
+	float: left;
+
+}
+#ninePic ul{
+	list-style: none;
+}
+#qiPic li{
+	height: 40px;
+	width: 118px;
+	padding: 10px 0px;
+	border-bottom: 1px dashed gainsboro;
+	border-left: 1px solid gainsboro;
+}
+#qiPic li:last-of-type{
+	border-bottom: none;
+}
+#qiPic{
+	float: left;
+}
+#erPic{
+	float: left;
+}
+
+article h3{
+	color: red;
+	margin: 10px 0px;
+}
+article h3 span{
+	color: gainsboro;
+}
+#quan{
+	width: 1200px;
+	margin-left: 30px;
+	margin-top: 20px;
+	margin-top: 20px;
+}
+#quan li{
+	list-style: none;
+	float: left;
+}
+#quan:after{
+	content: '';
+	display: block;
+	clear: both;
+}
+.youhui{
+	border-right: 1px dashed gainsboro;
+}
+.bottomDashed{
+	border-bottom: 1px dashed gainsboro;
+}
+table,tr,td{
+	border-spacing: 0px;
+	border-collapse: collapse;
+}
+/*右侧固定栏*/
+#rightDiv{
+	width: 32px;
+	height:700px;
+	background-color: #5C5C5C;
+	position: fixed;
+	right: 0px;
+	z-index: 20;
+}
+#rightDiv ul{
+}
+#rightDiv li{
+	list-style:none;
+}
+#rightDiv>div{
+}

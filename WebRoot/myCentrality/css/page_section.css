@@ -1,0 +1,15 @@
+body{
+					background-color:#F6F6F6 ;
+			}
+			#section{
+				width: 1200px;
+				margin: 0px auto;
+				margin-top: 20px;
+				overflow: hidden;
+				margin-bottom: 20px;
+			}
+			#section:after{
+				content: "";
+				display: block;
+				clear: both;
+			}

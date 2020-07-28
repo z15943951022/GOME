@@ -1,0 +1,123 @@
+/*头部*/
+			#header_bottom{
+				border-bottom: 1px solid #DD00A7;
+			}
+			#header{
+				width: 1200px;
+				height: 119px;
+				margin: 0px auto;
+				position: relative;
+				/*border: 1px solid red;	*/	
+			}
+			#header p{
+				position: absolute;
+				bottom: 30px;
+				left: 900px;
+				font-size: 15px;
+			}
+			#header p a{
+				text-decoration: none;
+				color: #2875CC;
+			}		
+			#header p a:hover{
+				color: red;
+			}
+			
+			/*主体*/	
+			#main{
+				width: 1200px;
+				margin: 0px auto;
+				height: 650px;
+				/*border: 1px solid red;*/
+				position: relative;
+			}
+			#main_div{
+				width: 400px;
+				/*border: 1px solid red;*/
+				position:absolute;
+				left: 400px;
+				top: 100px;
+			}
+			#main_div_span{
+				/*border: 1px solid red;*/
+				text-align: center;
+				color: #E0E0E0;
+			}
+			
+			#main_div_span01{
+				font-size: 40px;
+				font-weight: 900;
+				color: #FF4C4C;
+			}
+			#main_div_span02{
+				font-size: 40px;
+				font-weight: 900;
+			}
+			#main_div_span03{
+				font-size: 40px;
+				font-weight: 900;
+			}
+			
+			
+			#mian_input01{
+				width: 350px;
+				padding: 20px 0px 20px 0px;
+				margin: 40px 0px 20px 25px;
+			}
+			#mian_input02{
+				width: 350px;
+				padding: 20px 0px 20px 0px;
+				margin: 20px 0px 20px 25px;
+			}
+			#mian_input03{
+				width: 350px;
+				padding: 20px 0px 20px 0px;
+				margin: 20px 0px 20px 25px;
+			}		
+			#mian_input04{
+				width: 350px;
+				padding: 15px 0px 15px 0px;
+				margin: 20px 0px 20px 25px;
+				font-size: 20px;
+				background-color: #FF5757;
+				border: 1px solid #FF5757;
+				color: white;
+				font-weight: 600;
+			}
+			
+			
+			/*尾部*/
+			#footer{
+				width: 1200px;
+				margin:0px auto;
+			}
+			
+			#footer_top{
+				padding-left: 0px;
+			}
+			#footer_top li{
+				display: inline-flex;
+				list-style: none;
+				color: #666666;
+				padding: 0px 8px 8px 8px;	
+			}
+			#footer_top li:hover{
+				color: red;
+			}
+			
+			
+			#footer p{
+				color: #999999;
+			}
+			
+			
+			#footer_bottom{
+				padding-left: 0px;
+				border-top: 1px solid #999999;
+			}
+			#footer_bottom li{
+				display: inline-flex;
+				list-style: none;
+				color: #666666;
+				padding: 10px 8px 8px 8px;
+			}

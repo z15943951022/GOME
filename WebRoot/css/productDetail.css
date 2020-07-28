@@ -1,0 +1,213 @@
+#leftpNav ul{
+	display: none;
+}
+#leftpNav{
+	height: 40px;
+}
+#proTopNav{
+	height: 40px;
+	background-color: #F8F8F8;
+	padding-left: 30px;
+	font-size: 12px;
+	color: grey;
+}
+#proTopNav ul{
+	list-style: none;
+}
+#proTopNav li{
+	float: left;
+}
+
+#proTopNav li span{
+	display: inline-block;
+	height: 12px;
+}
+#proTopNav li>a{
+	text-decoration: none;
+	line-height: 40px;
+	color: grey;
+	padding: 0px 15px;
+}
+section{
+	width: 1200px;
+	/*border: 1px solid blue;*/
+	margin-top: 20px;
+	
+}
+.proPic{
+	width: 402px;
+	height: 402px;
+	border: 1px solid gainsboro;
+	/*background-image: url(../img/pro01.jpg);*/
+}
+#proBuy{
+	width: 600px;
+	height: 400px;
+	margin-left: 30px;
+}
+#priceDiv{
+	margin-top: 30px;
+	margin-bottom: 20px;
+	height: 80px;
+	line-height: 80px;
+	width: 600px;
+	background-color: #F8F8F8;
+}
+#buyForm{
+	color: grey;
+	font-size: 12px;
+}
+#buyForm div{
+	padding-left: 10px;
+}
+#buyForm div a{
+	text-decoration: none;
+}
+#buyPrice{
+	color: red;
+	font-size: 23px;
+	font-weight: bold;
+}
+#originalPrice{
+	text-decoration: line-through;
+}
+.formDiv{
+	height: 40px;
+	line-height: 40px;
+	width: 600px;
+}
+#tese a{
+	background-image: url(../img/guanjiafuwu.png);
+	font-size: 16px;
+}
+#selUser{
+	color: black;
+	font-weight: bold;
+}
+.buyDiv{
+	padding-top: 20px;
+	height: 60px;
+	line-height: 60px;
+	width: 600px;
+}
+.formInput{
+	width: 40px;
+	height: 40px;
+	text-align: center;
+	box-sizing: border-box;
+}
+.btnCount{
+	width: 20px;
+	height: 40px;
+	text-align: center;
+	box-sizing: border-box;
+}
+.btnSub{
+	width: 120px;
+	height: 40px;
+	text-align: center;
+	box-sizing: border-box;
+	background-color: red;
+	color: white;
+	font-size: 16px;
+	font-family: "新宋体";
+	font-weight: bold;
+}
+.proId{
+	width: 400px;
+	color: grey;
+	font-size: 10px;
+}
+.proNav{
+	height: 40px;
+	line-height: 40px;
+	width: 1200px;
+	padding-left: 50px;
+	background-color: gainsboro;
+}
+.proNav li{
+	list-style: none;
+	float: left;
+	padding-left: 30px;
+	padding-right: 30px;
+}
+.proNav a{
+	text-decoration: none;
+	color: gray;
+}
+.proDetailDiv{
+	width: 1200px;
+	
+	padding-top: 30px;
+	text-align: center;
+	border-left: 1px solid gainsboro;
+}
+#proNav1{
+	/* height: 900px; */
+	padding-bottom: 30px;
+}
+
+.proDetailDiv ul{
+	height: 40px;
+	line-height: 40px;
+	width: 1200px;
+	padding-left: 50px;
+	background-color: gainsboro;
+}
+.proDetailDiv li{
+	list-style: none;
+	float: left;
+	padding-left: 30px;
+	padding-right: 30px;
+}
+
+.proDetailDiv a{
+	text-decoration: none;
+	color: gray;
+	font-size: 12px;
+}
+.li1 a{
+	color: red;
+}
+.pinglun{
+	height: 90px;
+	border-bottom: 1px solid gainsboro;
+	padding-top: 15px;
+	width: 1200px;
+	
+}
+.pinglun div{
+	float: left;
+	height: 75px;
+	
+	/*border: 1px solid gold;*/
+	box-sizing: border-box;
+}
+.userPic{
+	width:80px ;
+	margin-left: 80px;
+}
+.userName{
+	width:100px ;
+	color: red;
+	font-size: 12px;
+	font-weight: bold;
+	line-height: 70px;
+}
+.userComment{
+	padding-left: 20px;
+	text-align: left;
+	line-height: 30px;
+	width: 700px;
+	font-size: 13px;
+	padding-top: 10px;
+}
+.userComment span{
+	color: grey;
+}
+.score{
+	width: 200px;
+	font-size: 35px;
+	color: goldenrod;
+	line-height: 70px;
+}

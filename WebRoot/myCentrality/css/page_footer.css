@@ -1,0 +1,148 @@
+			footer{
+				border-top: 1px solid #df0fac;
+				background-color: #F6F6F6;
+			}
+			footer:after{
+				content: "";
+				display: block;
+				clear: both;
+			}
+			footer p{
+				color: gray;
+			}
+			#fot_mid{
+				width: 1200px;
+				margin: 0px auto;
+			}
+			#fot_mid:after{
+				content: "";
+				display: block;
+				clear: both;
+			}
+			#fot_bot{
+				height: 60px;
+				width: 1200px;
+				margin: 0px auto;
+				border-top: 1px solid #9B9B9B;
+			}
+			#fot_rt{
+				width: 850px;
+				height: 100px;
+			}
+			#fot_rm{
+				width: 850px;
+				margin-bottom: 10px;
+			}
+			#fot_bot li{
+				float: left;
+				list-style: none;
+				margin-right: 10px;
+				width: 120px;
+			}
+			#fot_bot ul{
+				margin: 20px 0 0 10px ;
+				
+			}
+			#fot_bot li img{
+				height: 25px;
+				vertical-align: top;
+				display: block;
+				float: left;
+			}
+			#fot_bot li p{
+				height: 25px;
+				width: 80px;
+				float: left;
+				font-size: 12px;
+			}
+			#fot_bot li:last-of-type{
+				width: 156px;
+				margin-right: 0px;
+			}
+			#fot_bot li:last-of-type p{
+				width: 110px;
+			}
+			#fot_rm li{
+				float: left;
+				list-style: none;
+				font-size: 14px;
+				padding-right: 5px;
+				padding-left: 5px;
+				font-size: 13px;
+			}
+			#fot_rm ul{
+				overflow: hidden;
+				margin-bottom: 8px;
+			}
+			#fot_rm p{
+				width: 770px;
+				font-size: 13px;
+			}
+			#fot_rm li:first-of-type{
+				padding-left: 0px;
+			}
+			#fot_rm li:nth-of-type(4),
+			#fot_rm li:nth-of-type(10)
+			{
+				border-right: 1px solid gray;
+			}
+			#fot_rt ul{
+				margin-top: 10px;
+			}
+			#fot_rt li{
+				float: left;
+				list-style: none;
+				margin-right: 30px;
+				width: 260px;
+			}
+			#fot_rt li img{
+				display: block;
+				float: left;
+			}
+			#fot_rt li p{
+				width: 190px;
+				float: left;
+				margin-top: 5px;
+			}
+			#fot_rt li p span:first-of-type{
+				color: black;
+				font-size: 16px;
+				display: block;
+			}
+			#fot_rt li p span:last-of-type{
+				font-size: 13px;
+			}
+			#fot_rt li:last-of-type P{
+				margin-top: 9PX;
+			}
+			#fot_right{
+				height: 150px;
+				width: 340px;
+				float: left;
+			}
+			#fot_left{
+				float: left;
+			}
+			#fot_right ul{
+				float: right;
+				margin: 10px;
+			}
+			#fot_right li{
+				float: left;
+				list-style: none;
+				margin-left: 8px;
+			}
+			#fot_right li img{
+				width: 40px;
+			}
+			#fot_right li:last-of-type img{
+				width: 80px;
+			}
+			#fot_right li span{
+				display: block;
+				font-size: 11px;
+				margin-top: 5px;
+			}
+			#fot_right li:nth-of-type(2) span{
+				margin-top: 8px;
+			}

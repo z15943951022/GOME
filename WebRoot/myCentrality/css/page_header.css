@@ -1,0 +1,299 @@
+	/*头*/
+			header{
+				background-color: #f8f8f8;
+				height: 30px;
+				font-size: 13px;
+				position: relative;
+				box-shadow: gray 0px 0px 1px;
+			}
+			header:after{
+				content: "";
+				display: block;
+				clear: both;
+			}
+			/*头结束*/
+			/*居中头部开始*/
+			#head_nav>ul:first-of-type{
+				float: left;
+				line-height: 30px;
+				margin-left: 10px;
+				z-index: 5;
+			}
+			#head_nav>ul:first-of-type li{
+				float: left;
+				list-style: none;
+				margin-right: 10px;
+			}
+			#head_nav>ul:last-of-type{
+				float: right;
+				line-height: 30px;
+				height: 15px;
+				z-index: 10;
+			}
+			#head_nav>ul:last-of-type li{
+				float: left;
+				list-style: none;
+				padding-left: 10px;
+			}
+			#head_nav>ul:first-of-type li span{
+				 color: black;
+			}
+			#head_nav>ul>li>a{
+				margin: 0px;
+				text-decoration: none;
+				color: #888888;
+				padding-right: 10px;
+			}
+			#head_nav>ul:nth-of-type(1)>li:first-of-type>a,
+			#head_nav>ul:nth-of-type(2)>li:nth-of-type(2)>a,
+			#head_nav>ul:nth-of-type(2)>li:nth-of-type(5)>a
+			{
+				border-right: 1px solid;
+			}
+			#head_nav{
+				width: 1200px;
+				margin: 0px auto;
+			}
+			/*居中头部结束*/
+			/*企业采购开始*/
+			#nav_caigou{
+				padding: 10px;
+				width: 120px;
+				position: fixed;
+				top: 30px;
+				display: none;
+				right: 380px;
+				z-index: 10;
+				box-shadow: gray 0px 0px 5px;
+				background-color: white;
+			}
+			#nav_caigou img{
+				width:120px ;
+			}
+			.hid{
+				border: 1px solid gray ;
+			}
+			/*企业采购结束*/
+			/*隐藏栏选择器开始*/
+			#head_nav>ul:last-of-type>li:nth-of-type(2){
+				position: relative;
+				z-index: 10;
+			}
+			#head_nav>ul:last-of-type>li:nth-of-type(3){
+				position: relative;
+				z-index: 10;
+			}
+			#head_nav>ul:last-of-type>li:nth-of-type(5){
+				position: relative;
+				z-index: 10;
+			}
+			#head_nav>ul:first-of-type>li:nth-of-type(2){
+				position: relative;
+				z-index: 10;
+			}
+			#head_nav>ul:last-of-type>li:last-of-type{
+				position: relative;
+			}
+			/*隐藏栏选择器结束*/
+			/*网站导航隐藏栏开始*/
+			#navv{
+				width: 1000px;
+				height: 200px;
+				border: 1px solid gray;
+				background-color: white;
+				box-shadow: gray 0px 0px 5px;
+				position: absolute;
+				left: -924px;
+				padding: 5px;
+				display: none;
+			}
+			#navv div{
+				float: left;
+				height: 190px;
+				border-right: 1px solid #888888;
+				margin-left: 8px;
+			}
+			#navv div:last-of-type{
+				border-right:none;
+			}
+			#navv div h4{
+				margin-left: 10px;
+				color: #5E5E5E;
+				font-size: 14px;
+			}
+			#navv div ul{
+				list-style: none;
+				font-size: 11px;
+				
+			}
+			#navv a{
+				color: #888888;
+				text-decoration: none;
+			}
+			#navv div ul li{
+				float: left;
+				width: 60px;
+				padding: 0px;
+			}
+			#navv div:first-of-type{
+				width: 250px;
+			}
+			#navv div:nth-of-type(2){
+				width: 380px;
+			}
+			#navv div:nth-of-type(3){
+				width: 160px;
+			}
+			#navv div:nth-of-type(4){
+				width: 80px;
+			}
+			#navv div:nth-of-type(5){
+				width: 80px;
+			}
+			/*网站导航隐藏栏结束*/
+			/*手机国美隐藏栏开始*/
+			#phoneerwei{
+				border: 1px solid gray;
+				display: none;
+				box-shadow: gray 0px 0px 5px ;
+				position: absolute;
+				padding: 10px;
+				left: -34px;
+				background-color: white;
+				z-index: 15;
+			}
+			#phoneerwei img{
+				width: 100px;
+			}
+			/*手机国美开始*/
+			/*"个人信息隐藏栏开始"*/
+			#myinfo{
+				width: 310px;
+				height:260px;
+				border: 1px solid gray;
+				box-shadow: gray 0px 0px 5px;
+				position: absolute;
+				top: 30px;
+				left: -1px;
+				display: none;
+				background-color: white;
+			}
+			#myinfo div:first-of-type{
+				float: left;
+				margin: 10px;
+				margin-right: 0px;
+			}
+			#myinfo div:first-of-type img{
+				width: 80px;
+				height: 80px;
+				border-radius: 80px;
+			}
+			#myinfo ul:first-of-type{
+				width: 200px;
+				float: left;
+				margin: 5px;
+				margin-top: 10px;
+			}
+			#myinfo ul:first-of-type li{
+				float: left;
+				list-style: none;
+			}
+			#myinfo ul li img{
+				width: 200px;
+			}
+			#myinfo hr{
+				clear:both ;
+				border: none;
+				border-top: 1px solid gray;
+				margin: 0px auto;
+				padding: 0px;
+				width: 90%;
+				height: 0px;
+			}
+			#what{
+				width: 310px;
+			}
+			#myinfo>ul:first-of-type li:first-of-type{
+				font-size: 14px;
+				color: gray;
+			}
+			#myinfo>ul:first-of-type li:first-of-type span{
+				border: 1px solid blue;
+				color: blue;
+				box-shadow:  0px 0px 2px blue inset;
+			}
+			#myinfo>ul:first-of-type li:nth-of-type(3){
+				color: gray;
+			}
+			#myinfo>ul:last-of-type li:first-of-type{
+				margin-left: 10px;
+			}
+			#myinfo>ul:last-of-type li:last-of-type{
+				float: right;
+			}
+			/*"个人信息结束"*/
+			/*我的国美隐藏栏开始*/
+			#copyinfo{
+				width: 310px;
+				height:260px;
+				border: 1px solid gray;
+				box-shadow: gray 0px 0px 5px;
+				position: absolute;
+				top: 30px;
+				left: -1px;
+				display: none;
+				background-color: white;
+			}
+			#copyinfo div:first-of-type{
+				float: left;
+				margin: 10px;
+				margin-right: 0px;
+			}
+			#copyinfo div:first-of-type img{
+				width: 80px;
+				border-radius: 40px;
+			}
+			#copyinfo ul:first-of-type{
+				width: 200px;
+				float: left;
+				margin: 5px;
+				margin-top: 10px;
+			}
+			#copyinfo ul:first-of-type li{
+				float: left;
+				list-style: none;
+			}
+			#copyinfo ul li img{
+				width: 200px;
+			}
+			#copyinfo hr{
+				clear:both ;
+				border: none;
+				border-top: 1px solid gray;
+				margin: 0px auto;
+				padding: 0px;
+				width: 90%;
+				height: 0px;
+			}
+			#copyinfo_what{
+				width: 310px;
+			}
+			#copyinfo>ul:first-of-type li:first-of-type{
+				font-size: 14px;
+				color: gray;
+			}
+			#copyinfo>ul:first-of-type li:first-of-type span{
+				border: 1px solid blue;
+				color: blue;
+				box-shadow:  0px 0px 2px blue inset;
+			}
+			#copyinfo>ul:first-of-type li:nth-of-type(3){
+				color: gray;
+			}
+			#copyinfo>ul:last-of-type li:first-of-type{
+				margin-left: 10px;
+			}
+			#copyinfo>ul:last-of-type li:last-of-type{
+				float: right;
+			}
+			/*我的国美隐藏栏结束*

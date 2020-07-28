@@ -1,0 +1,166 @@
+/* 主体内容部分 */
+	body{
+		background-color: white;
+	}
+	.main{
+		float: left;
+		width: 1050px;
+		margin-top: 25px;
+		background-color: white;
+	}
+	.dingdan{
+			list-style: none;
+			overflow: hidden;
+			padding: 10px;
+		}
+	.dingdan li{
+			float: left;
+			padding: 10px;
+			font-size: 14px;
+			font-weight: 600;
+			margin-right: 40px;
+			color: gray;
+		}
+	.dingdan li a{
+		color: gray;
+		padding-bottom: 10px;
+		text-decoration: none;
+	}
+	.dingdan li:nth-of-type(2){
+		margin-right: 300px;
+	}
+	.dingdan li:nth-of-type(3){
+		margin-right: 100px;
+	}
+	.dingdan li:last-of-type{
+		float: right;
+	}
+	.address{
+		list-style: none;
+		overflow: hidden;
+		padding: 10px;
+		background-color: #FFF5D1;
+		margin: 5px;
+	}
+	.address li{
+		float: left;
+		padding: 10px;
+		font-size: 11px;
+		margin-right: 40px;
+		color: black;
+		overflow: hidden;
+	}
+	
+	.address li:nth-of-type(1){
+			width: 50px;
+			overflow: hidden;
+	}
+	.address li:nth-of-type(2){
+		width: 210px;
+		margin-right: 138px;
+		overflow: hidden;
+	}
+	.address li:nth-of-type(3){
+		margin-right: 56px;
+		width: 60px;
+		overflow: hidden;
+	}
+	
+	.address li:last-of-type{
+		float: right;
+		overflow: hidden;
+	}
+	.address li:last-of-type a{
+		padding-right: 5px;
+		padding-left: 5px;
+		border-right: 1px solid;
+		text-decoration: none;
+	}
+	.address li:last-of-type a:last-of-type{
+		border: none;
+	}
+	.main h3{
+		background-color: #FFF5D1;
+		margin: 5px;
+		padding: 10px;
+		padding-left: 30px;
+	}
+	
+	#address{
+		margin-left: 80px;
+		margin-top: 10px;
+	}
+	#address input{
+		outline: none;
+		height: 30px;
+		width: 200px;
+	}
+	#address tr td:first-of-type{
+		float: right;
+	}
+	#address tr td:last-of-type{
+		padding-left: 10px;
+	}
+	#address img{
+		width: 100px;
+		border-radius: 100px;
+	}
+	#address tr {
+		margin: 50px;
+		height: 35px;
+		font-size: 13px;
+		height: 50px;
+	}
+	#address tr:last-of-type  input{
+		border: solid;
+		background: red;
+		color: white;
+		width: 150px;
+		height: 50px;
+		font-size: 17px;
+		margin-right:10px;
+	}
+	#address tr:last-of-type a{
+		color: black;
+		text-decoration: none;
+	}
+	#address tr:last-of-type a:hover{
+		text-decoration:underline;
+		color: red;
+	}
+	#addTitle{
+		text-align: center;
+		width: 300px;
+		margin-left: 50px;
+		padding: 10px;
+		border-bottom: 2px solid red;
+		margin-bottom: 30px;
+		margin-top: 30px;
+	}
+	#address tr:nth-of-type(6) input{
+		width: 12px;
+	}
+	#addrFrom span{
+		font-size: 12px;
+		color: red;
+		padding-left: 10px;
+	}
+	
+	#addAddr:hover{
+		text-decoration: underline;
+	}
+	#addrFrom input[type='text'],
+	#addrFrom input[type='email']
+	{
+		outline: none;
+		width: 180px;
+		border: 1px solid red;
+		border-radius: 5px;
+		transition: 0.25s;
+	}
+	#addrFrom input[type='text']:focus,
+	#addrFrom input[type='email']:focus
+	{
+		width: 200px;
+		border: 1px solid #CF980E;
+	}
